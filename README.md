@@ -1,5 +1,5 @@
 ## Description
-NestJS Backend server for [hastebin.dev](https//hastebin.dev)
+NestJS Backend server for [hastebin.dev](https://hastebin.dev)
 
 Current status:
 - Support for basic documents
