@@ -5,6 +5,8 @@ import {
   NotFoundException,
   Post,
   Body,
+  CacheInterceptor,
+  UseInterceptors,
 } from '@nestjs/common';
 import { Document } from './document.entity';
 import { DocumentService } from './document.service';
@@ -16,6 +18,7 @@ import { DocumentDto } from './dto/document.dto';
 
 @ApiTags('documents')
 @Controller('document')
+@UseInterceptors(CacheInterceptor)
 export class DocumentController {
   constructor(private service: DocumentService) {}
 
