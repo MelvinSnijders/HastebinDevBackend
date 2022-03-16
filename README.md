@@ -1,5 +1,6 @@
 ## Description
 NestJS Backend server for [hastebin.dev](https://hastebin.dev)
+Check out the live version (OpenAPI spec) at [api.hastebin.dev](https://api.hastebin.dev)
 
 Current status:
 - Support for basic documents
