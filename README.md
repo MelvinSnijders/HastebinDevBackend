@@ -11,6 +11,12 @@ Current status:
 $ yarn install
 ```
 
+Configure your database connection in the `ormconfig.json` file.
+
+```bash
+$ cp ormconfig.example.json ormconfig.json
+```
+
 ## Running the app
 
 ```bash
